@@ -4,7 +4,7 @@
 >
 > 以简单范例来展示 spring 在 web 开发中的各种应用。
 >
-> 感谢https://github.com/dunwu/spring-notes
+> 感谢 https://github.com/dunwu/spring-notes
 >
 
 ## 内容
@@ -15,7 +15,7 @@ spring-notes 参考 Spring 官方的技术划分，将技术内容分为以下�
 
 > Spring 框架的核心技术。如；IOC 依赖注入、AOP、数据绑定等。
 
-**| [CODES](https://github.com/dunwu/spring-notes/tree/master/codes/core) | [DOCS](https://github.com/dunwu/spring-notes/tree/master/docs/spring/core) |**
+**| [CODES](https://github.com/1303575952/Spring-Note/tree/master/codes/core) | [DOCS](docs/spring/core/README.md) |**
 
 **Data**
 

@@ -1,6 +1,6 @@
 ---
 title: Spring IoC
-date: 2017/11/08
+date: 2018/12/06
 categories:
 - spring
 tags:
@@ -689,12 +689,12 @@ Java 配置
     @Configuration
     public class AnnotationConfiguration {
         private static final Logger log = LoggerFactory.getLogger(JavaComponentScan.class);
-
+    
         @Bean
         public Job getPolice() {
             return new Police();
         }
-
+    
         public static void main(String[] args) {
             AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AnnotationConfiguration.class);
             ctx.scan("org.zp.notes.spring.beans");
@@ -703,11 +703,11 @@ Java 配置
             log.debug("job: {}, work: {}", job.getClass(), job.work());
         }
     }
-
+    
     public interface Job {
         String work();
     }
-
+    
     @Component("police")
     public class Police implements Job {
         @Override
