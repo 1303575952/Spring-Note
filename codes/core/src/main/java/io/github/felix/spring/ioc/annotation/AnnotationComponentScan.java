@@ -12,11 +12,11 @@ import io.github.felix.spring.ioc.sample.job.Teacher;
 /**
  * 展示使用注解方式标记扫描的类。
  *
- * @author victor
+ * @author felix
  * @see ComponentScanInJava
  */
 @Configuration
-@ComponentScan(basePackages = "io.github.dunwu.spring.ioc")
+@ComponentScan(basePackages = "io.github.felix.spring.ioc")
 public class AnnotationComponentScan {
     private static final Logger log = LoggerFactory.getLogger(AnnotationComponentScan.class);
 

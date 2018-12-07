@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 /**
  * 展示Java方式扫描注解
  *
- * @author victor
+ * @author felix
  * @see AnnotationComponentScan
  */
 public class ComponentScanInJava {
@@ -17,7 +17,7 @@ public class ComponentScanInJava {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
-        ctx.scan("io.github.dunwu.spring.ioc");
+        ctx.scan("io.github.felix.spring.ioc");
         ctx.refresh();
         Teacher teacher = (Teacher) ctx.getBean("teacher");
         log.debug(teacher.work());

@@ -11,9 +11,9 @@ import io.github.felix.spring.ioc.sample.Banana;
 import javax.inject.Inject;
 
 /**
- * 展示 @Resource 注解的用法
+ * 展示 @Inject 注解的用法
  *
- * @author victor
+ * @author felix
  */
 public class AnnotationInject {
     private static final Logger log = LoggerFactory.getLogger(AnnotationInject.class);
