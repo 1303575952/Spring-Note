@@ -13,7 +13,7 @@ import javax.annotation.PreDestroy;
  * <p>@PostConstruct和@PreDestroy是JSR 250规定的用于生命周期的注解。
  * 从其名号就可以看出，一个是在构造之后调用的方法，一个是销毁之前调用的方法。
  *
- * @author victor
+ * @author felix
  */
 public class AnnotationPostConstructAndPreDestroy {
     private static final Logger log = LoggerFactory.getLogger(AnnotationPostConstructAndPreDestroy.class);
@@ -31,9 +31,9 @@ public class AnnotationPostConstructAndPreDestroy {
 
     public static void main(String[] args) throws Exception {
         AbstractApplicationContext ctx =
-                        new ClassPathXmlApplicationContext("spring/spring-annotation.xml");
+            new ClassPathXmlApplicationContext("spring/spring-annotation.xml");
         AnnotationPostConstructAndPreDestroy annotationPostConstructAndPreDestroy =
-                        (AnnotationPostConstructAndPreDestroy) ctx.getBean("annotationPostConstructAndPreDestroy");
+            (AnnotationPostConstructAndPreDestroy) ctx.getBean("annotationPostConstructAndPreDestroy");
         log.debug("call main method");
         ctx.close();
     }
