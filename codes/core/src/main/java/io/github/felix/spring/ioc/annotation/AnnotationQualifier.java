@@ -12,13 +12,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * 展示 @Qualifier 的用法
  * <p>使用@Autowired时，当出现多个与类型匹配的候选集时，Spring不知道选哪个。这时可使用@Qualifier bean的名称来锁定需要的bean。
  *
- * @author victor
+ * @author felix
  */
 public class AnnotationQualifier {
     private static final Logger log = LoggerFactory.getLogger(AnnotationQualifier.class);
 
     @Autowired
-    @Qualifier("apple") /** 去除这行，会报异常 */
+    @Qualifier("apple") //去除这行，会报异常
         AbstractFruit fieldA;
 
     AbstractFruit fieldB;
@@ -42,16 +42,16 @@ public class AnnotationQualifier {
 
     public static void main(String[] args) throws Exception {
         AbstractApplicationContext ctx =
-                        new ClassPathXmlApplicationContext("spring/spring-annotation.xml");
+            new ClassPathXmlApplicationContext("spring/spring-annotation.xml");
 
         AnnotationQualifier annotationQualifier =
-                        (AnnotationQualifier) ctx.getBean("annotationQualifier");
+            (AnnotationQualifier) ctx.getBean("annotationQualifier");
 
         log.debug("type: {}, name: {}", annotationQualifier.getFieldA().getClass(),
-                        annotationQualifier.getFieldA().getName());
+            annotationQualifier.getFieldA().getName());
 
         log.debug("type: {}, name: {}", annotationQualifier.getFieldB().getClass(),
-                        annotationQualifier.getFieldB().getName());
+            annotationQualifier.getFieldB().getName());
         ctx.close();
     }
 }
