@@ -16,7 +16,7 @@ import javax.annotation.Resource;
  * 否则容器将抛出BeanInitializationException。
  * 如果没有为@Resource指定名称，它会像@Autowired一样按照类型去寻找匹配。
  *
- * @author victor
+ * @author felix
  */
 public class AnnotationResource {
     private static final Logger log = LoggerFactory.getLogger(AnnotationResource.class);
@@ -55,18 +55,18 @@ public class AnnotationResource {
 
     public static void main(String[] args) throws Exception {
         AbstractApplicationContext ctx =
-                        new ClassPathXmlApplicationContext("spring/spring-annotation.xml");
+            new ClassPathXmlApplicationContext("spring/spring-annotation.xml");
         AnnotationResource annotationResource =
-                        (AnnotationResource) ctx.getBean("annotationResource");
+            (AnnotationResource) ctx.getBean("annotationResource");
 
         log.debug("type: {}, name: {}", annotationResource.getFieldA().getClass(),
-                        annotationResource.getFieldA().getName());
+            annotationResource.getFieldA().getName());
 
         log.debug("type: {}, name: {}", annotationResource.getFieldB().getClass(),
-                        annotationResource.getFieldB().getName());
+            annotationResource.getFieldB().getName());
 
         log.debug("type: {}, name: {}", annotationResource.getFieldC().getClass(),
-                        annotationResource.getFieldC().getName());
+            annotationResource.getFieldC().getName());
 
         ctx.close();
     }
