@@ -1,6 +1,6 @@
-package io.github.dunwu.spring.orm.mapper;
+package io.github.felix.spring.orm.mapper;
 
-import io.github.dunwu.spring.orm.entity.User;
+import io.github.felix.spring.orm.entity.User;
 
 public interface UserMapper {
     /**

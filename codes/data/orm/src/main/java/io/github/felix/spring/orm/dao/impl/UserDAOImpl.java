@@ -1,11 +1,10 @@
-package io.github.dunwu.spring.orm.dao.impl;
+package io.github.felix.spring.orm.dao.impl;
 
-import io.github.dunwu.spring.orm.dao.UserDAO;
-import io.github.dunwu.spring.orm.mapper.UserMapper;
+import io.github.felix.spring.orm.dao.UserDAO;
+import io.github.felix.spring.orm.mapper.UserMapper;
+import io.github.felix.spring.orm.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-
-import io.github.dunwu.spring.orm.entity.User;
 
 /**
  * @author Zhang Peng

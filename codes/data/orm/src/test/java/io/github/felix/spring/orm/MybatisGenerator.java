@@ -1,4 +1,4 @@
-package io.github.dunwu.spring.orm;
+package io.github.felix.spring.orm;
 
 import java.io.File;
 import java.io.IOException;

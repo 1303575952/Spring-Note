@@ -1,6 +1,6 @@
-package io.github.dunwu.spring.orm.dao;
+package io.github.felix.spring.orm.dao;
 
-import io.github.dunwu.spring.orm.mapper.UserMapper;
+import io.github.felix.spring.orm.mapper.UserMapper;
 
 /**
  * @author Zhang Peng

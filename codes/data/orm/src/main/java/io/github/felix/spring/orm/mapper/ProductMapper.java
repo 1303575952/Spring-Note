@@ -1,6 +1,6 @@
-package io.github.dunwu.spring.orm.mapper;
+package io.github.felix.spring.orm.mapper;
 
-import io.github.dunwu.spring.orm.entity.Product;
+import io.github.felix.spring.orm.entity.Product;
 
 public interface ProductMapper {
     /**

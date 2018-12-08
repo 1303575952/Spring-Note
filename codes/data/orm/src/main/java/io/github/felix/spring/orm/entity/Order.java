@@ -1,4 +1,4 @@
-package io.github.dunwu.spring.orm.entity;
+package io.github.felix.spring.orm.entity;
 
 public class Order {
     /**

@@ -1,12 +1,11 @@
-package io.github.dunwu.spring.orm.dao;
+package io.github.felix.spring.orm.dao;
 
+import io.github.felix.spring.orm.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-import io.github.dunwu.spring.orm.entity.User;
 
 /**
  * @author Zhang Peng
