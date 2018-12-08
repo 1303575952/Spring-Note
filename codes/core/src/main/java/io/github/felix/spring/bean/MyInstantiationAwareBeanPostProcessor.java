@@ -1,6 +1,7 @@
 package io.github.felix.spring.bean;
 
 import java.beans.PropertyDescriptor;
+
 import org.springframework.beans.BeansException;
 import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter;
@@ -31,7 +32,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     // 接口方法、设置某个属性时调用
     @Override
     public PropertyValues postProcessPropertyValues(PropertyValues pvs, PropertyDescriptor[] pds, Object bean,
-        String beanName)
+                                                    String beanName)
         throws BeansException {
         System.out.println("[InstantiationAwareBeanPostProcessorAdapter] call postProcessPropertyValues");
         return pvs;
