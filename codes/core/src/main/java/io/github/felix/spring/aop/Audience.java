@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 public class Audience {
     private final Logger log = LoggerFactory.getLogger(Audience.class);
 
-    @Pointcut("execution(* io.github.dunwu.spring.aop.Instrumentalist.perform(..))")
+    @Pointcut("execution(* io.github.felix.spring.aop.Instrumentalist.perform(..))")
     public void performance() {}
 
     @Before("performance()")
