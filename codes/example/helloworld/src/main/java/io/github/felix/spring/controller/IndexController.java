@@ -2,7 +2,7 @@
  * The Apache License 2.0
  * Copyright (c) 2016 Zhang Peng
  */
-package io.github.dunwu.spring.controller;
+package io.github.felix.spring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author Zhang Peng
- * @date 2017/4/12.
+ * @author felix
+ * @date 2018.12.09
  */
 @Controller
 public class IndexController {

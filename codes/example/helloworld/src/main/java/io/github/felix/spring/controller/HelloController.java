@@ -1,4 +1,4 @@
-package io.github.dunwu.spring.controller;
+package io.github.felix.spring.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,8 +12,8 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * spring mvc 的第一个程序
  *
- * @author Zhang Peng
- * @since 2016.07.29
+ * @author felix
+ * @since 2018.12.09
  */
 @Controller
 @RequestMapping(value = "/hello")
