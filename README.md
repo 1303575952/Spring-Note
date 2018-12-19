@@ -21,7 +21,7 @@ spring-notes 参考 Spring 官方的技术划分，将技术内容分为以下�
 
 > Spring 在数据库领域的应用。如：JDBC、ORM、事务等。
 
-**| [CODES](https://github.com/dunwu/spring-notes/tree/master/codes/data) | [DOCS](https://github.com/dunwu/spring-notes/tree/master/docs/spring/data) |**
+**| [CODES](https://github.com/dunwu/spring-notes/tree/master/codes/data) | [DOCS](docs/spring/data/README.md) |**
 
 **Web**
 
