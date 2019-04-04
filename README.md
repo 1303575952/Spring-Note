@@ -4,8 +4,14 @@
 >
 > 以简单范例来展示 spring 在 web 开发中的各种应用。
 >
-> 感谢 https://github.com/dunwu/spring-notes
+> 扩展学习：更多 Java 技术栈知识（JavaSE/JavaEE/Java 库/Java 工具/Java 框架）可以在 [java-stack](https://github.com/dunwu/java-stack) 了解。
 >
+
+<p align="center">
+  <a href="https://dunwu.gitbooks.io/spring-notes/" target="_blank">
+    :point_right: spring-notes 文档在线阅读
+  </a>
+</p>
 
 ## 内容
 
@@ -15,13 +21,13 @@ spring-notes 参考 Spring 官方的技术划分，将技术内容分为以下�
 
 > Spring 框架的核心技术。如；IOC 依赖注入、AOP、数据绑定等。
 
-**| [CODES](https://github.com/1303575952/Spring-Note/tree/master/codes/core) | [DOCS](docs/spring/core/README.md) |**
+**| [CODES](https://github.com/dunwu/spring-notes/tree/master/codes/core) | [DOCS](https://github.com/dunwu/spring-notes/tree/master/docs/spring/core) |**
 
 **Data**
 
 > Spring 在数据库领域的应用。如：JDBC、ORM、事务等。
 
-**| [CODES](https://github.com/dunwu/spring-notes/tree/master/codes/data) | [DOCS](docs/spring/data/README.md) |**
+**| [CODES](https://github.com/dunwu/spring-notes/tree/master/codes/data) | [DOCS](https://github.com/dunwu/spring-notes/tree/master/docs/spring/data) |**
 
 **Web**
 
